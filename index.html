@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mihir Gawade - Portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #0d1117;
+        color: #c9d1d9;
+        overflow-x: hidden;
+      }
+
+      header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 20px 10px;
+        background-color: rgba(13, 17, 23, 0.9);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid #30363d;
+        z-index: 100;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+
+      nav {
+        margin-top: 70px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1rem;
+      }
+
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #8b949e;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #58a6ff;
+      }
+
+      section {
+        max-width: 1200px;
+        margin: 80px auto 40px;
+        padding: 30px;
+        border-radius: 15px;
+        background-color: #161b22;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      h2 {
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #c9d1d9;
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 15px 20px;
+        text-align: center;
+        line-height: 1.6;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      li {
+        margin: 10px;
+        padding: 12px 20px;
+        background-color: #21262d;
+        border-radius: 30px;
+        transition: background-color 0.3s;
+      }
+
+      li:hover {
+        background-color: #58a6ff;
+        color: white;
+      }
+
+      .languages div {
+        margin: 5px;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #30363d;
+        transition: background-color 0.3s;
+      }
+
+      .languages div:hover {
+        background-color: #58a6ff;
+        color: white;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #0d1117;
+        color: #8b949e;
+        margin-top: 20px;
+      }
+
+      footer p {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+      }
+
+      a {
+        color: rgb(255, 255, 255);
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>Mihir Gawade - Portfolio</header>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#learning">Learning</a>
+      <a href="#repos">Repositories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>Hi 👋, I'm Mihir</h2>
+      <p>
+        I specialize in building scalable and high-performing applications,
+        bridging the gap between development and operations to ensure seamless
+        deployments. With hands-on experience in frontend and backend
+        technologies, I’m passionate about optimizing workflows through
+        automation and modern DevOps practices.
+      </p>
+    </section>
+
+    <section id="learning">
+      <h2>🌱 I’m currently learning:</h2>
+      <ul>
+        <li>AWS</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>DevOps Concepts</li>
+      </ul>
+    </section>
+
+    <section id="repos">
+      <h2>Popular Repositories:</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/mihir-gawade/WealthWise" target="_blank"
+            >WealthWise</a
+          >
+          - SIP Calculator in ReactJS
+        </li>
+        <li>
+          <a
+            href="https://github.com/mihir-gawade/wells-fargo-task-2-forage"
+            target="_blank"
+            >Wells Fargo Task</a
+          >
+          - Java
+        </li>
+        <li>
+          <a
+            href="https://github.com/mihir-gawade/python-shape-detection-1"
+            target="_blank"
+            >Python Shape Detection</a
+          >
+          - Python, OpenCV
+        </li>
+        <li>
+          <a
+            href="https://github.com/mihir-gawade/user-authentication-bakery-website"
+            target="_blank"
+            >User Authentication Bakery Website</a
+          >
+          - PHP, HTML, JavaScript
+        </li>
+        <li>
+          <a href="https://github.com/mihir-gawade/nexus-events" target="_blank"
+            >Nexus Events</a
+          >
+          - Spring Boot, ReactJS, SQL
+        </li>
+        <li>
+          <a
+            href="https://github.com/mihir-gawade/adaptive-web-app-builder-library"
+            target="_blank"
+            >Adaptive Web App Builder</a
+          >
+          - Angular, React, React Native, NPM
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2024 Mihir Gawade. All Rights Reserved.</p>
+      <p style="font-size: larger">This website was deployed using AWS.</p>
+    </footer>
+  </body>
+</html>
